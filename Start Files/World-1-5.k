@@ -5,3 +5,9 @@
  * these beepers!
  */
  import "turns";
+
+function CollectBeeperTowers(){
+	collectAllBeepers();
+	dropAllBeepers();
+	returnHome();
+}
